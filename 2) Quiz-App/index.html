@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div>
+      <div class="quiz-container" id="quiz">
+        <div class="time-container">
+          <p id="time"></p>
+          <i class="far fa-clock"></i>
+        </div>
+        <div class="quiz-header">
+          <h2 id="question">Question Text</h2>
+          <ul>
+            <li>
+              <input type="radio" id="a" name="answer" class="answer" />
+              <label id="a_text" for="a">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="b" name="answer" class="answer" />
+              <label id="b_text" for="b">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="c" name="answer" class="answer" />
+              <label id="c_text" for="c">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="d" name="answer" class="answer" />
+              <label id="d_text" for="d">Question</label>
+            </li>
+          </ul>
+        </div>
+        <button id="submit">Cevapla</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
